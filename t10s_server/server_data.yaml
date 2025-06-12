@@ -1,0 +1,30 @@
+
+project:
+  name: "t10s"
+  
+server:
+  ip: ""
+  http_port: "80:80"
+  https_port: "443:443"
+  domain: "my-points.ru"
+  subdomain:
+    api: "api"
+    web: "web"
+    insights: "insights"
+  email: "frolprank@gmail.com"
+  
+database:
+  host: "192.168.0.6"
+  port: "5432"
+  name: "t10s_db"
+  user: "t10s_user"  
+
+reddis:
+  host: "192.168.0.7"
+  port: "6379"
+  user: "default"
+  
+deployment:
+  organization: "devabacus"
+  ssh_user: "serverpod"
+
