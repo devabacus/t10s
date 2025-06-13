@@ -21,7 +21,7 @@ spec:
       containers:
       - name: t10s-server
         
-        image: 4dc3df58-daring-grosbeak.registry.twcstorage.ru/t10s-server:latest
+        image: .../t10s-server:latest
         command: ["/usr/local/bin/server", "--mode", "production", "--role", "monolith"]
 
         imagePullPolicy: Always 
